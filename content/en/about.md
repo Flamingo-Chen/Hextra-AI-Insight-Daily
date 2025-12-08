@@ -6,20 +6,20 @@ sidebar:
 ---
 #### 何夕2077 / justlovemaki
 
-> A decade of code, fingertips chilled, my spirit's fire, yet unfulfilled. Then thunder roared, AI's grand call, I'm ready to take on the storm and give it my all!
+> Ten years of coding, hands-on, with big ideas still brewing. Now that AI's shaking things up, I'm diving in to make some serious waves!
 
-#### My Code Philosophy 💡
+#### My Code Philosophy
 
-> Technology, at its core, serves the people. That's my code philosophy, plain and simple.
+> Tech for the people!
 
-#### My Stellar Projects ✨
+#### Featured Projects
 
 *   **[Open Source Contribution/CloudFlare-AI-Image](https://github.com/justlovemaki/CloudFlare-AI-Image)**:
-    *   **This AI image generation script** is built using Cloudflare Workers. Pretty neat, huh?
+    *   An AI image generation script powered by Cloudflare Workers.
 *   **[Open Source Contribution/CloudFlare-AI-Insight-Daily](https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily)**:
-    *   **Cloudflare-AI-Insight-Daily**, powered by Cloudflare Workers, is a dynamic content aggregation and generation platform. It hooks you up daily with the freshest AI developments, including industry news, hot open-source projects, mind-blowing academic papers, and cool social media takes from big-shot tech influencers.
-*   **My [GitHub](https://github.com/justlovemaki)** holds even more project deets, so go check it out!
+    *   This content aggregation and generation platform, driven by Cloudflare Workers, daily curates the latest in AI 🔥 – from industry news and hot open-source projects to cutting-edge research and tech influencer insights.
+*   For more project details, check out my [GitHub](https://github.com/justlovemaki).
 
-#### What I'm Cooking Up Now 🚀
+#### What I'm Digging Into Now
 
-> **My current passion** lies in LLM applications and website SEO. I'm deep-diving into learning and hands-on practice, soaking up all the knowledge!
+I'm super into LLM applications and website SEO, actively diving deep into learning and building stuff. 💡

@@ -12,10 +12,10 @@ services:
   googleAnalytics:
     ID: "G-SECWWMY8WQ"
 
-# outputs:
-#   home: [HTML, RSS]
-#   page: [HTML, RSS]
-#   section: [HTML, RSS]
+outputs:
+  home: [html]
+  page: [html]
+  section: [html, rss]
 
 # import hextra as module
 module:
@@ -43,24 +43,27 @@ menu:
       name: AI日报
       pageRef: /
       weight: 1
+    - identifier: blog
+      name: 博客
+      pageRef: /blog
+      weight: 2
     - identifier: about      
       name: 关于我 ↗
       url: "https://github.com/justlovemaki"
-      weight: 2
+      weight: 3
     - identifier: github   
       name: 同性交友
-      weight: 3
+      weight: 4
       url: "https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily"
       params:
         icon: github
 
-
 params:
   adsenseId: "ca-pub-8136412975724403"
-  ahrefsKey: "Qe0ZpZJ6/W8rgMFnLgk4kg"
+  umamiKey: "2b24e36d-6e56-499b-8b7e-aea4d308caff"
+  ahrefsKey-del: "Qe0ZpZJ6/W8rgMFnLgk4kg"
   description: 个人每日整理的AI资讯站。我们为您过滤信息噪音，只提供最精选的AI新闻、最实用的AI工具与AI教程，助您高效获取人工智能领域的前沿动态
   descriptionEn: Your daily source for curated AI news, practical tools, and actionable tutorials to master Artificial Intelligence;
-  descriptionJA: 個人が毎日更新するAIニュースサイト。情報のノイズを取り除き、厳選したAIニュース、実用的なツールとチュートリアルだけをお届けします。人工知能の最先端を効率よくキャッチアップするお手伝いをします;
   logo: "images/logo-dark.png"
   
   author:
@@ -96,9 +99,20 @@ params:
     displayCopyright: false
     displayPoweredBy: false
 
-  # blog:
-  #   list:
-  #     displayTags: true  
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+      # Pagination
+      pagerSize: 10
+
+    article:
+      displayPagination: true
+
+  toc:
+    displayTags: false
   
   page:
     # full (100%), wide (90rem), normal (1280px)
@@ -135,8 +149,3 @@ languages:
     languageName: English
     title: Hex2077's AI Daily | AI News | AI Tools | AI Insights
     weight: 2
-  ja:
-    contentDir: content/ja
-    languageName: 日本語
-    title: 何夕2077AIデイリー | 厳選AIニュース＆ツール | 最先端のAIインサイト
-    weight: 3
